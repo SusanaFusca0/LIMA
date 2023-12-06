@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(101, 103, 103);
+}
+
+/*título*/
+.titulo{
+    border:outset 3px rgb(111, 189, 213);
+    text-align: center;
+    padding: 30px;
+    width: 1000px;
+    margin-left: 200px;
+    color: white;
+
+    
+}
+
+/*corpo*/
+.corpo{
+    border:dotted white 3px;
+    text-align: center;
+    color: white;
+    width:1060px ;
+    height: 250px;
+    margin-left: 200px;
+
+
+}

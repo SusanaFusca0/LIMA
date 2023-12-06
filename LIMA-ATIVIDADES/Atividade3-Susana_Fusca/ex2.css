@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(163, 137, 104);
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+.img{
+    width: 600px;
+    height: 570px;
+}
+.texto{
+    border:double 12px white;
+    color: white;
+    width: 600px;
+    height: 570px;
+    font-size:45px;
+}

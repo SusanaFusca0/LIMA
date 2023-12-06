@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(101, 103, 103);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*título*/
+.titulo{
+    border:outset 3px rgb(111, 189, 213);
+    text-align: center;
+    color: white;
+    width:1060px;  
+}
+
+/*corpo*/
+.corpo{
+    border:dotted white 3px;
+    text-align: center;
+    color: white;
+    width:1060px ;
+    height: 250px;
+    justify-content: center;
+}

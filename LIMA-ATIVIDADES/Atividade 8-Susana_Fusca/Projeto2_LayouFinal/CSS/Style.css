@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family= Milonga & display=swap') ;
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 752px;
+    margin: 0px;
+    display:flex;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(206, 60, 206), aqua);
+    font-family: Milonga;
+}
+#barra{
+    background-color: white;
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+/*barra de busca*/
+#buscar{
+    gap:100px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    height: 50px;
+    width: 840px;
+    margin-left: 100px;
+}
+.tam{
+    width: 50px;
+    height: 50px;
+}
+.position{
+    margin-left: 100px;
+}
+.logo{
+    width:100px ;
+    height: 100px;
+    margin-top: 92px;
+    margin-left: -1440px;
+}
+#circulo {
+    background-image:linear-gradient(aqua, rgb(157,35,157));
+    border-radius: 50%;
+    opacity: 30%;
+    width: 300px;
+    height: 200px;
+    margin-top: 400px;
+    margin-left: -90px;
+}
+#quadrado {
+    background-image: linear-gradient(rgb(0, 255, 0),rgb(49, 141, 175));
+    opacity:30%;
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    margin-top:500px;
+    margin-left:0px;
+}
+#triangulo {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 200px solid red;
+    opacity: 40%;
+    position:absolute;
+    margin-top:360px;
+    margin-left:1100px;
+}
+#circuloo {
+    background-color:yellow;
+    border-radius: 50%;
+    opacity: 30%;
+    width: 200px;
+    height: 200px;
+    margin-top: 540px;
+    margin-left:925px; 
+}
+#quadradinho{
+    background-color: #37f2ff;
+    width: 8px;
+    height: 8px;
+    rotate: 45deg;
+    position:absolute;
+    margin-top: 250px;
+    left: 87px;
+}
+#quadradinho2{
+    background-color: #37f2ff;
+    width: 8px;
+    height: 8px;
+    rotate: 45deg;
+    position:absolute;
+    margin-top: 250px;
+    left: 1387px;
+}
+#quadradinho3{
+    background-color:#A640FE ;
+    width: 8px;
+    height: 8px;
+    rotate: 45deg;
+    margin-top: 725px;
+    margin-left: -130px;
+}
+#quadradinho4{
+    background-color:#A640FE ;
+    width: 8px;
+    height: 8px;
+    rotate: 45deg;
+    margin-top: 725px;
+    margin-left: -1300px;
+}
+
+h1{
+    font-family:'Milonga', cursive;
+    margin-top:100px;
+    margin-left: 180px;
+}
+.aa{
+    color: white;
+    margin-top: 150px;
+    margin-left:-212px;
+}
+.aaa{
+    margin-top: 120px;
+    margin-left: -940px;   
+}
+.bb{
+    background-color: #37F3FF;
+    width: 220px;
+    height: 30px;
+    border-radius: 25px;
+    margin:40px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Milonga;
+}
+#posicao{
+    width: 1300px;
+    height: 55px;
+    border-bottom: 2px solid #37F3FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: -450px;
+}
+.rosa{
+    background-color: rgba(214, 168, 197, 0.718);
+    width:590px;
+    height:250px ;
+    border-radius: 25px ; 
+    margin-left: 70px;
+}
+.rosaa{
+    background-color: rgba(214, 168, 197, 0.718);
+    width:590px;
+    height:100px ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+#uu{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 60px;
+}
+#vv{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 700px;
+}
+.sacola1{
+    position: absolute;
+    width: 260px;
+    height: 180px;
+    left: 100px;
+    top: 60px;
+}
+.sacola2{
+    position: absolute;
+    width: 226px;
+    height: 228.37px;
+    left: 100px;
+    top: 20px;
+}
+.cc{
+    font-size: 30px;
+    position: absolute;
+    margin-left:365px;
+    margin-top: 100px;
+}
+.dd{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 230px;
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#rodape{
+    width: 1300px;
+    height: 50px;
+    border-bottom: 2px solid #A640FE;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: -350px;
+    margin-top: 680px;
+}
+.ee{
+    margin-right: 40px;
+    margin-left: 100px;
+}

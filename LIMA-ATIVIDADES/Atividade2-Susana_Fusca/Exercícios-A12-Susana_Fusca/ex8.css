@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    border:1px solid black;
+    height: 1000px;
+    text-transform:capitalize;
+}
+h1{
+    border:1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width:100%px ;
+    height: 50px;
+    margin-top: 0;
+}
+form{
+    text-align: center;
+}
+.cor1{
+    background-color: rgb(179, 94, 158);
+}
+.cor2{
+    background-color: rgb(153, 114, 190);
+}
+h4{
+    color: dimgray;
+    margin-left: 40px;
+}

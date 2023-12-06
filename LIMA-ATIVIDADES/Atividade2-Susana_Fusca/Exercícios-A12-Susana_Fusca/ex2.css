@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(163, 137, 104);
+}
+.titulo{
+    color:white;
+    text-align: center;
+}
+.img{
+    width: 700px;
+    height: 600px;
+}
+.texto{
+    border:double 12px white;
+    color: white;
+    font-size:45px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 800px;
+    top:-620px;
+    text-align: center; 
+}
